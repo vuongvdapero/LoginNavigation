@@ -23,8 +23,10 @@ class SignInFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_sign_in, container, false)
         val backButton = view.findViewById<TextView>(R.id.txtBackSignIn)
-        backButton.setOnClickListener{ Navigation.findNavController(view).navigate(R.id.actionSignInToSignUpForm) }
-        // Inflate the layout for this fragment
+        backButton.setOnClickListener{
+            Navigation.findNavController(view)
+                .navigate(R.id.actionSignInToSignUpForm) }
+
         return view
     }
 

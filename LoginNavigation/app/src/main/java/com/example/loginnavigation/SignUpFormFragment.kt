@@ -26,8 +26,10 @@ class SignUpFormFragment : Fragment() {
         val backSignUpForm = view.findViewById<TextView>(R.id.txtBackSignUpForm)
         val signUpButton = view.findViewById<Button>(R.id.btnSignUp)
         backSignUpForm.setOnClickListener{ Navigation.findNavController(view).navigate(R.id.actionSignUpFormToSignUp) }
-        // Inflate the layout for this fragment
-        signUpButton.setOnClickListener{ Navigation.findNavController(view).navigate(R.id.actionSignUpFormToSignIn) }
+
+        signUpButton.setOnClickListener{
+            Navigation.findNavController(view)
+                .navigate(R.id.actionSignUpFormToSignIn) }
         return view
     }
 

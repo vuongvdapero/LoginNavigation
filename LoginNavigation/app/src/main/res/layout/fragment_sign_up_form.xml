@@ -44,6 +44,8 @@
         android:layout_height="@dimen/_35sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:background="@drawable/all_custom_edit_text"
+        android:paddingStart="@dimen/_34sdp"
+        android:textSize="@dimen/_16ssp"
         app:layout_constraintStart_toStartOf="@+id/txtFullName"
         app:layout_constraintTop_toBottomOf="@+id/txtFullName" />
 
@@ -62,6 +64,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_marginTop="@dimen/_8sdp"
+        android:paddingStart="@dimen/_34sdp"
+        android:textSize="@dimen/_16ssp"
         android:background="@drawable/all_custom_edit_text"
         app:layout_constraintStart_toStartOf="@+id/txtPasswordSignUpForm"
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordSignUpForm" />
@@ -81,6 +85,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_marginTop="@dimen/_8sdp"
+        android:paddingStart="@dimen/_34sdp"
+        android:textSize="@dimen/_16ssp"
         android:background="@drawable/all_custom_edit_text"
         app:layout_constraintStart_toStartOf="@+id/txtPasswordConfirm"
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordConfirm" />
@@ -106,6 +112,7 @@
         android:textColor="@color/txt_all_screen"
         android:gravity="center_horizontal"
         android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
         android:layout_marginTop="@dimen/_18sdp"
         app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
         app:layout_constraintStart_toStartOf="@+id/btnSignUp"

@@ -28,8 +28,10 @@ class SignUpFragment : Fragment() {
         val signIn = view.findViewById<TextView>(R.id.txtSignIn)
         val joinNowButton = view.findViewById<Button>(R.id.btnJoinNow)
         joinNowButton.setOnClickListener{ Navigation.findNavController(view).navigate(R.id.actionSignUpToSignUpForm) }
-        // Inflate the layout for this fragment
-        signIn.setOnClickListener { Navigation.findNavController(view).navigate(R.id.actionSignUpToSignIn) }
+
+        signIn.setOnClickListener {
+            Navigation.findNavController(view)
+                .navigate(R.id.actionSignUpToSignIn) }
         return view
     }
 

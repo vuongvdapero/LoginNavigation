@@ -44,8 +44,9 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_35sdp"
         android:layout_marginTop="@dimen/_8sdp"
+        android:paddingStart="@dimen/_34sdp"
         android:background="@drawable/all_custom_edit_text"
-        android:textSize="@dimen/_35sdp"
+        android:textSize="@dimen/_16ssp"
         app:layout_constraintStart_toStartOf="@+id/txtEmailSignIn"
         app:layout_constraintTop_toBottomOf="@+id/txtEmailSignIn" />
 
@@ -64,7 +65,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="@dimen/_35sdp"
         android:background="@drawable/all_custom_edit_text"
-
+        android:paddingStart="@dimen/_34sdp"
+        android:textSize="@dimen/_16ssp"
         app:layout_constraintStart_toStartOf="@+id/txtPasswordSignIn"
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordSignIn" />
 
@@ -76,6 +78,7 @@
         android:background="@drawable/all_custom_button"
         android:layout_marginTop="@dimen/_40sdp"
         android:textColor="@color/txt_all_screen"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/edtPasswordSignIn"
         app:layout_constraintStart_toStartOf="@+id/edtPasswordSignIn"
         app:layout_constraintTop_toBottomOf="@+id/edtPasswordSignIn" />
@@ -85,6 +88,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
         android:text="@string/txt_back_sign_in"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
         android:textColor="@color/txt_all_screen"
         android:gravity="center_horizontal"
         android:layout_marginTop="@dimen/_18sdp"
